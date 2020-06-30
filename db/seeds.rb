@@ -18,6 +18,7 @@ Restaurant.create!({
 })
 Restaurant.create!({
   name: "Chez Dédé",
-  address: "1 rue de la Liberté, 75011 Paris"
+  address: "1 rue des Vacances, 75006 Paris"
 })
+
 puts "Finished!"
