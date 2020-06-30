@@ -1,4 +1,8 @@
-puts 'Creating restaurants...'
+puts "Deleting restaurants..."
+
+Restaurant.destroy_all
+
+puts "Creating restaurants..."
 
 Restaurant.create!({
   name: "Pitaya",
@@ -9,4 +13,4 @@ Restaurant.create!({
   address: "110 Rue Oberkampf, 75011 Paris"
 })
 
-puts 'Finished!'
+puts "Finished!"
